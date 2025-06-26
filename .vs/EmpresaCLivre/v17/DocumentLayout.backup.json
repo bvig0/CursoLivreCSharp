@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brian.voliveira\\Documents\\Visual Studio 2022\\CursoLivreCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F35C4206-D2D8-4B44-A2D2-622A583772FD}|Heranca\\Heranca.csproj|c:\\users\\brian.voliveira\\documents\\visual studio 2022\\cursolivrecsharp\\heranca\\frmconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F35C4206-D2D8-4B44-A2D2-622A583772FD}|Heranca\\Heranca.csproj|solutionrelative:heranca\\frmconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35C4206-D2D8-4B44-A2D2-622A583772FD}|Heranca\\Heranca.csproj|c:\\users\\brian.voliveira\\documents\\visual studio 2022\\cursolivrecsharp\\heranca\\frmconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35C4206-D2D8-4B44-A2D2-622A583772FD}|Heranca\\Heranca.csproj|solutionrelative:heranca\\frmconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35C4206-D2D8-4B44-A2D2-622A583772FD}|Heranca\\Heranca.csproj|c:\\users\\brian.voliveira\\documents\\visual studio 2022\\cursolivrecsharp\\heranca\\poupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35C4206-D2D8-4B44-A2D2-622A583772FD}|Heranca\\Heranca.csproj|solutionrelative:heranca\\poupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmConta.cs",
+              "DocumentMoniker": "C:\\Users\\brian.voliveira\\Documents\\Visual Studio 2022\\CursoLivreCSharp\\Heranca\\frmConta.cs",
+              "RelativeDocumentMoniker": "Heranca\\frmConta.cs",
+              "ToolTip": "C:\\Users\\brian.voliveira\\Documents\\Visual Studio 2022\\CursoLivreCSharp\\Heranca\\frmConta.cs",
+              "RelativeToolTip": "Heranca\\frmConta.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwv0gAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:48:39.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Poupanca.cs",
+              "DocumentMoniker": "C:\\Users\\brian.voliveira\\Documents\\Visual Studio 2022\\CursoLivreCSharp\\Heranca\\Poupanca.cs",
+              "RelativeDocumentMoniker": "Heranca\\Poupanca.cs",
+              "ToolTip": "C:\\Users\\brian.voliveira\\Documents\\Visual Studio 2022\\CursoLivreCSharp\\Heranca\\Poupanca.cs",
+              "RelativeToolTip": "Heranca\\Poupanca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:12:54.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmConta.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brian.voliveira\\Documents\\Visual Studio 2022\\CursoLivreCSharp\\Heranca\\frmConta.cs",
+              "RelativeDocumentMoniker": "Heranca\\frmConta.cs",
+              "ToolTip": "C:\\Users\\brian.voliveira\\Documents\\Visual Studio 2022\\CursoLivreCSharp\\Heranca\\frmConta.cs [Design]",
+              "RelativeToolTip": "Heranca\\frmConta.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:09:39.062Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
