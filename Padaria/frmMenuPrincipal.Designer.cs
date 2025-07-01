@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuPrincipal));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnFuncinarios = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btn = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -68,19 +68,20 @@
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnFuncinarios
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.Location = new System.Drawing.Point(211, 251);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(169, 239);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "&Funcionários";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnFuncinarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncinarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncinarios.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncinarios.Image")));
+            this.btnFuncinarios.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnFuncinarios.Location = new System.Drawing.Point(211, 251);
+            this.btnFuncinarios.Name = "btnFuncinarios";
+            this.btnFuncinarios.Size = new System.Drawing.Size(169, 239);
+            this.btnFuncinarios.TabIndex = 5;
+            this.btnFuncinarios.Text = "&Funcionários";
+            this.btnFuncinarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnFuncinarios.UseVisualStyleBackColor = true;
+            this.btnFuncinarios.Click += new System.EventHandler(this.btnFuncinarios_Click);
             // 
             // button5
             // 
@@ -124,19 +125,19 @@
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btn
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button8.Location = new System.Drawing.Point(603, 6);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(169, 239);
-            this.button8.TabIndex = 3;
-            this.button8.Text = "Fornecedo&res";
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn.Image = ((System.Drawing.Image)(resources.GetObject("btn.Image")));
+            this.btn.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn.Location = new System.Drawing.Point(603, 6);
+            this.btn.Name = "btn";
+            this.btn.Size = new System.Drawing.Size(169, 239);
+            this.btn.TabIndex = 3;
+            this.btn.Text = "Fornecedo&res";
+            this.btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn.UseVisualStyleBackColor = true;
             // 
             // btnVoltar
             // 
@@ -175,10 +176,10 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btn);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnFuncinarios);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -196,11 +197,11 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnFuncinarios;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btn;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button button4;
     }
